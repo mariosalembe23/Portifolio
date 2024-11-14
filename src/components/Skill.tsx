@@ -33,7 +33,10 @@ const InfiniteScroll: React.FC<InfiniteScrollProps> = ({ cardData }) => {
     const ul = logosRef.current;
     if (ul) {
       ul.insertAdjacentHTML("afterend", ul.outerHTML);
-      ul.nextSibling?.setAttribute("aria-hidden", "true");
+      const nextSibling = ul.nextSibling;
+      if (nextSibling && nextSibling instanceof Element) {
+        nextSibling.setAttribute("aria-hidden", "true");
+      }
     }
   }, []);
 
