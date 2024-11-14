@@ -5,7 +5,7 @@ import Tippy from "@tippyjs/react";
 
 export default function Contacts() {
   return (
-    <section data-aos="fade-down" data-aos-offset='700' data-aos-duration="1000" className="pt-28 pb-10 px-5">
+    <section data-aos="fade-down"  data-aos-duration="1000" className="pt-28 pb-10 px-5">
       <header className="flex items-center justify-center relative">
         <h3 className="text-center bg-[#000] px-4 text-xl absolute font-medium text-zinc-200">
           Contacte-me

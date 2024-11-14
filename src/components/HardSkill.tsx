@@ -65,7 +65,7 @@ export default function HardSkill() {
     },
   ];
   return (
-    <section data-aos="fade-up" data-aos-offset='600' data-aos-duration="1000" className="pt-1 pb-10">
+    <section data-aos="fade-up" data-aos-duration="1000" className="pt-1 pb-10">
       <header className="px-5">
         <h3 className="text-center paisagem-tablet:text-6xl text-4xl text-white font-semibold">
           Hard Skills

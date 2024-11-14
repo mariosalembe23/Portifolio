@@ -29,7 +29,7 @@ const CardProject: React.FC<{ title: string; text: string; url: string }> = ({
 
 const Projects = () => {
   return (
-    <section data-aos="fade-down" data-aos-offset='600' data-aos-duration="1000" className="mt-28 mb-10">
+    <section data-aos="fade-down" data-aos-duration="1000" className="mt-28 mb-10">
       <header className="flex items-center justify-center relative">
         <h3 className="text-center bg-[#000] px-4 text-xl absolute font-medium text-zinc-200">
           Projectos Destacados
